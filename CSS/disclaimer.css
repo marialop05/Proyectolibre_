@@ -1,0 +1,79 @@
+/*******************************************************************/
+/*                        Web del Disclaimer                       */
+/*                 Autora: María López López                      */
+/*******************************************************************/
+/*Este es el Disclaimer*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: textonormal;
+}
+
+
+/*formateo del body y su color*/
+body{
+    background-color: rgb(131, 108, 167);
+}
+/*final de esta seccion*/
+
+
+/*formateo del top */
+#top{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+/*final de esta seccion*/
+
+/*formateo del wrapper*/
+#wrapper{
+    margin: auto;
+    width: 70%;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+/*final de esta seccion*/
+
+/*formateo de los estilos y las letras de "section"*/
+section h1{
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: rgb(131, 108, 167) solid  5px;
+            margin-left: 35%;
+            margin-right: 35%; 
+    
+}
+
+section p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section li{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 15px;
+}
+/*final de esta seccion*/
+
+/*formateo de responsividad*/
+@media only screen and (width<800px){
+    #wrapper{
+        width: 90%;
+    }
+}
+
+@media only screen and (width<600px){
+    #wrapper{
+        width: 95%;
+    }
+    
+}
+/*final de formateo de responsividad*/
